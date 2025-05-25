@@ -20,13 +20,29 @@
         <developerConnection>scm:git:git@github.com:trixon/netbeans-plugins.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.netbeans.utilities</groupId>
+                    <artifactId>nbm-maven-plugin</artifactId>
+                    <configuration>
+                        <author>Patrik Karlström</author>
+                        <homePageUrl>https://github.com/trixon/netbeans-plugins</homePageUrl>
+                        <licenseName>Apache License, Version 2.0</licenseName>
+                        <licenseFile>LICENSE</licenseFile>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
     <modules>
         <module>branding</module>
         <module>application</module>
         <module>main</module>
         <module>plugins/netbeans-plugin-defaultoptionseditor</module>
         <module>plugins/netbeans-plugin-guideruler</module>
+        <module>plugins/netbeans-plugin-websearch</module>
     </modules>
 
     <properties>
