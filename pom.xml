@@ -25,6 +25,7 @@
         <module>branding</module>
         <module>application</module>
         <module>main</module>
+        <module>plugins/netbeans-plugin-defaultoptionseditor</module>
     </modules>
 
     <properties>

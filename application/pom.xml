@@ -149,6 +149,11 @@
             <artifactId>main</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>defaultoptionseditor</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <!-- Trixon -->
         <dependency>
