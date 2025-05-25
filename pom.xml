@@ -26,6 +26,7 @@
         <module>application</module>
         <module>main</module>
         <module>plugins/netbeans-plugin-defaultoptionseditor</module>
+        <module>plugins/netbeans-plugin-guideruler</module>
     </modules>
 
     <properties>

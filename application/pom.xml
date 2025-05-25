@@ -151,7 +151,12 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>defaultoptionseditor</artifactId>
+            <artifactId>netbeans-plugin-default-options-editor</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>netbeans-plugin-guideruler</artifactId>
             <version>${project.version}</version>
         </dependency>
 
