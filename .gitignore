@@ -27,3 +27,8 @@ replay_pid*
 /netbeans-plugins-sample/target/
 /main/target/
 /plugins/netbeans-plugin-defaultoptionseditor/target/
+/plugins/browser/target/
+/plugins/netbeans-plugin-browser/target/
+/plugins/save/target/
+/plugins/netbeans-plugin-save/target/
+/plugins/netbeans-plugin-browser/
