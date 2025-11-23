@@ -92,8 +92,8 @@ public final class GuideRulerAction implements ActionListener {
 
     class RulerLineBorder extends LineBorder {
 
-        public static final int MAX_COLS = 9;
-        public static final int MAX_ROWS = 7;
+        public static final int MAX_COLS = 7;
+        public static final int MAX_ROWS = 5;
         private final Color mAlternateColor = Color.YELLOW;
         private final Color mBaseColor = Color.BLACK;
         private Point mMousePosition = new Point();
